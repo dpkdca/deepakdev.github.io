@@ -2,25 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Deepak Bhanswal – Developer Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
       color: #333;
-      text-align: center;
-      padding: 40px;
     }
-    h1 { font-size: 2.5em; margin-bottom: 10px; }
-    p { font-size: 1.2em; }
-    a { color: #007acc; text-decoration: none; }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0f172a;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1d4ed8;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #e2e8f0;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm Deepak Bhanswal</h1>
-  <p>I’m a freelance developer specializing in Shopify, WordPress & Core PHP.</p>
-  <p>💼 Portfolio projects coming soon...</p>
-  <p>📫 Connect with me on <a href="https://linkedin.com/in/deepakbhanswal" target="_blank">LinkedIn</a></p>
+
+  <header>
+    <h1>👋 Hi, I'm Deepak Bhanswal</h1>
+    <p>Freelance Shopify, WordPress, and Core PHP Developer</p>
+  </header>
+
+  <section class="section">
+    <h2>💼 Projects</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>Alaska King Beds</h3>
+        <p>Custom Shopify theme enhancements, CRO improvements, variant logic, and quick view popup.</p>
+        <a href="https://alaskankingbeds.com" target="_blank">🔗 Visit site</a>
+      </div>
+
+      <div class="card">
+        <h3>AI Story Generator Plugin</h3>
+        <p>Custom WordPress plugin using OpenAI + DALL·E to generate illustrated children's stories.</p>
+        <a href="https://yourtale.digitalcareagency.com/story" target="_blank">🔗 Visit demo</a>
+      </div>
+
+      <div class="card">
+        <h3>Recharge Subscription Widget</h3>
+        <p>React-based custom Recharge subscription widget for Shopify. Built for dynamic product logic.</p>
+        <a href="#">🔒 Private Client Work</a>
+      </div>
+
+      <div class="card">
+        <h3>Colon Realty</h3>
+        <p>WordPress real estate website with Elementor, lead capture forms, and styled listings.</p>
+        <a href="https://colonrealty.com" target="_blank">🔗 Visit site</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📫 Contact</h2>
+    <p style="text-align: center;">
+      Email: <a href="mailto:deepak.bhanswal.dev@gmail.com">deepak.bhanswal.dev@gmail.com</a> <br/>
+      LinkedIn: <a href="https://linkedin.com/in/deepakbhanswal" target="_blank">linkedin.com/in/deepakbhanswal</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Deepak Bhanswal. All rights reserved.
+  </footer>
+
 </body>
 </html>
