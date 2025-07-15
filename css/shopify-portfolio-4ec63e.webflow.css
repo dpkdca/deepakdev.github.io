@@ -2510,6 +2510,9 @@ figcaption {
 	.work-cms-gallery-image {
 		height: 25rem;
 	}
+	.max-width-medium {
+		max-width: 21rem;
+	}
 }
 
 #w-node-_27be7cfc-3f71-592f-14fb-2f426715aba3-2c83efd6,
