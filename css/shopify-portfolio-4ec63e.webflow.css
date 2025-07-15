@@ -2368,7 +2368,7 @@ figcaption {
 	}
 
 	.home-hero-image {
-		height: 26rem;
+		height: auto;
 	}
 
 	.scroll-block {
@@ -2431,7 +2431,7 @@ figcaption {
 	}
 
 	.home-about-image {
-		height: 27rem;
+		height: auto;
 	}
 
 	.footer-top {
@@ -2467,7 +2467,7 @@ figcaption {
 	}
 
 	.about-hero-image {
-		height: 25rem;
+		height: auto;
 	}
 
 	.about-hero-small-image-wrap {
@@ -2486,7 +2486,7 @@ figcaption {
 
 	.work-item-image {
 		/* height: 25rem; */
-		height: 15rem;
+		height: auto;
 		object-fit: fill;
 	}
 
